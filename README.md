@@ -1,4 +1,4 @@
-# NeuralNetwork
+# Neural Network Numpy Implementation 
 ## Createing a Neural Network from Scratch
 Create different layers classes to form a multi-layer nerual network with various type of regularization method and optimization method.
 
@@ -23,13 +23,13 @@ Run the code block sequentially. Most importantly, run everything before Part 3.
 5. Train model() using model.train()
 6. Predict using model(). predict
 
-# How to make prediction
+## How to make prediction
 
 1. confidences = model().predict(X_test)
 2. Predictions = model().output_layer_activation.predictions(confidences)
 
 
-# Examples
+## Examples
 Ex 1. To train a 3-layer neural network with sigmoid activation in 50 epochs :
 
 model = Model()
