@@ -29,6 +29,7 @@ Run the code block sequentially. Most importantly, run everything before Part 3.
 2. Predictions = model().output_layer_activation.predictions(confidences)
 
 
+# Examples
 Ex 1. To train a 3-layer neural network with sigmoid activation in 50 epochs :
 
 model = Model()
